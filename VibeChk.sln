@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VibeChk", "VibeChk\VibeChk.vcxproj", "{C5F80730-F44F-4478-BDAE-6634EFC2CA88}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lcd_display", "VibeChk\Libraries\lcd_display\lcd_display.vcxitems", "{E32A58F9-E8E0-41DD-A513-BD2B0897BE56}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LiquidCrystal_I2C", "VibeChk\Libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.vcxitems", "{2A3F9D0A-7A47-4355-A792-2E675B2D1A4A}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		VibeChk\Libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.vcxitems*{2a3f9d0a-7a47-4355-a792-2e675b2d1a4a}*SharedItemsImports = 9
+		VibeChk\Libraries\lcd_display\lcd_display.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		VibeChk\Libraries\LiquidCrystal_I2C\LiquidCrystal_I2C.vcxitems*{c5f80730-f44f-4478-bdae-6634efc2ca88}*SharedItemsImports = 4
+		VibeChk\Libraries\lcd_display\lcd_display.vcxitems*{e32a58f9-e8e0-41dd-a513-bd2b0897be56}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Debug|x86.Build.0 = Debug|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.ActiveCfg = Release|Win32
+		{C5F80730-F44F-4478-BDAE-6634EFC2CA88}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65F9DD80-8C26-4082-A45F-80224516390D}
+	EndGlobalSection
+EndGlobal
